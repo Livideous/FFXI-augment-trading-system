@@ -1,7 +1,7 @@
---Func: CAPME
+--Func: capme
 --desc: caps player at lvl 50
 
-local commandOBJ = {}
+local commandObj = {}
 
 commandObj.cmdprops = 
 {
@@ -11,12 +11,12 @@ commandObj.cmdprops =
 
 local capped = function(player)--create level cap function 
 
-  player:addstatusEffect(xi.effect.LEVEL_RESTRICTION, 50, 0, 0)--cap player at lvl 50
+  player:addStatusEffect(xi.effect.LEVEL_RESTRICTION, 50, 0, 0)--cap player at lvl 50
 end
 
 local uncapped = function(player)--create level cap removal function
 
-    player:delstatusEffect(xi.effect.LEVEL_RESTRICTION)--remove cap from player
+    player:delStatusEffect(xi.effect.LEVEL_RESTRICTION)--remove cap from player
 end
 
 commandObj.onTrigger = function(player) --trigger function to activate command
