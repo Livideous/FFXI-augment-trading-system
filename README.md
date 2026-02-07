@@ -4,7 +4,7 @@ I'm starting to back up all my content so I figured I'd start sharing my work in
 
 When I first wanted to do something like this around 2019, I was told multiples times nobody was interested in helping me. I don't want anyone to be left out. So this is my contribution.
 
-Every line and logic method in this file is made from scratch inside an NPC custom module file in, and using researched programming/code from, the LSB project/group source code. All credits to engine functions and documentation to them.
+Every line and method in this file is made inside an NPC custom module file in, and using researched programming/code from, the LSB project/group source code. All credits to engine functions and documentation to them.
 
 You can view their project here! 
 https://github.com/LandSandBoat
