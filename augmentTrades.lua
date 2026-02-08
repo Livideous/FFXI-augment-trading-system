@@ -62,16 +62,16 @@
  		end
 		
 		if trade:getItemId(1) == 4098 then --Wind Crystals > AGI
-			a1 = 515
+			a1 = 515 --AGI
 			v1 = 0 -- 0=1
 		elseif trade:getItemId(2) == 4098 then 
- 			a2 = 515
+ 			a2 = 515 --AGI
  			v2 = 0 -- 0=1
 		elseif trade:getItemId(3) == 4098 then 
-			a3 = 515
+			a3 = 515 --AGI
 			v3 = 0 -- 0=1
 		elseif trade:getItemId(4) == 4098 then 
- 			a4 = 515
+ 			a4 = 515 --AGI
 			v4 = 0 -- 0=1
  		end
 		
@@ -163,13 +163,13 @@
 			a1 = 258 --Dagger
 			v1 = 0 -- 0=1
 		elseif trade:getItemId(2) == 4101 then 
- 			a2 = 517 --MND
+ 			a2 = 258 --MND
  			v2 = 0 -- 0=1
 		elseif trade:getItemId(3) == 4101 then 
-			a3 = 517 --MND
+			a3 = 258 --MND
 			v3 = 0 -- 0=1
 		elseif trade:getItemId(4) == 4101 then 
- 			a4 = 517 --MND
+ 			a4 = 258 --MND
 			v4 = 0 -- 0=1
  		end
 
@@ -177,13 +177,13 @@
 			a1 = 259 --Sword
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 259 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 259 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 259 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -191,13 +191,13 @@
 			a1 = 260 --Great Sword
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 260 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 260 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 260 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -205,13 +205,13 @@
 			a1 = 261 --Axe
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 261 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 261 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 261 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -219,13 +219,13 @@
 			a1 = 262 --Great Axe
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 262 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 262 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 262 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -233,13 +233,13 @@
 			a1 = 263 --Scythe
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 263 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 263 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 263 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -247,13 +247,13 @@
 			a1 = 264 --Polearm
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 264 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 264 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 264 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -261,13 +261,13 @@
 			a1 = 265 --Katana
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 265 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 265 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 265 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -275,13 +275,13 @@
 			a1 = 266 --Great Katana
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 266 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 266 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 266 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -289,13 +289,13 @@
 			a1 = 267 --Club
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 267 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 267 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 267 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -303,13 +303,13 @@
 			a1 = 268 --Staff
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 268 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 268 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 268 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -317,13 +317,13 @@
 			a1 = 281 --Archery
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 281 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 281 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 281 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -331,13 +331,13 @@
 			a1 = 282 --Marksmanship
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 282 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 282 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 282 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -345,13 +345,13 @@
 			a1 = 283 --Throwing
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 283 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 283 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 283 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -387,13 +387,13 @@
 			a1 = 286 --Shield
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 286 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 286 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 286 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -415,13 +415,13 @@
 			a1 = 288 --Divine Magic
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 288 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 288 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 288 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -429,13 +429,13 @@
 			a1 = 289 --Healing Magic
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 289 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 289 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 289 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -443,13 +443,13 @@
 			a1 = 290 --Enhancing magic
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 290 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 290 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 290 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -457,13 +457,13 @@
 			a1 = 291 --Enfeebling Magic
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 291 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 291 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 291 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -471,13 +471,13 @@
 			a1 = 292 --Elemental Magic
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 292 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 292 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 292 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -485,13 +485,13 @@
 			a1 = 293 --Dark Magic
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 293 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 293 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 293 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -499,13 +499,13 @@
 			a1 = 296 --Singing
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 296 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 296 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 296 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -513,13 +513,13 @@
 			a1 = 297 --String Instrument
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 297 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 297 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 297 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -527,13 +527,13 @@
 			a1 = 298 --Wind Instrument
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 298 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 298 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 298 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -541,13 +541,13 @@
 			a1 = 295 --Ninjutsu
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 295 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 295 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 295 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -555,13 +555,13 @@
 			a1 = 294 --Summoning Magic
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 294 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 294 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 294 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -569,13 +569,13 @@
 			a1 = 299 --Blue Magic
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 299 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 299 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 299 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -583,13 +583,13 @@
 			a1 = 300 --Geomancy
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 300 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 300 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 300 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
@@ -597,13 +597,13 @@
 			a1 = 301 --Handbell
 			v1 = slot1 -- +1 HP for each Light Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4102 then 
- 			a2 = 1 --HP
+ 			a2 = 301 --HP
  			v2 = slot2 -- +1 HP for each Light Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4102 then 
-			a3 = 1 --HP
+			a3 = 301 --HP
 			v3 = slot3 -- +1 HP for each Light Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4102 then 
- 			a4 = 1 --HP
+ 			a4 = 301 --HP
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 		
