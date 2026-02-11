@@ -33,6 +33,34 @@
 			v4 = 0 -- 0=1
  		end
 		
+		if trade:getItemId(1) == 4238 then --Inferno crystals > STR
+			a1 = 512 --STR
+			v1 = 4 -- 4=5
+		elseif trade:getItemId(2) == 4238 then 
+ 			a2 = 512 --STR
+ 			v2 = 4 -- 4=5
+		elseif trade:getItemId(3) == 4238 then 
+			a3 = 512 --STR
+			v3 = 4 -- 4=5
+		elseif trade:getItemId(4) == 4238 then 
+ 			a4 = 512 --STR
+			v4 = 4 -- 4=5
+ 		end
+		
+		if trade:getItemId(1) == 6505 then --Pyre crystals > STR
+			a1 = 512 --STR
+			v1 = 14 -- 14=5
+		elseif trade:getItemId(2) == 6505 then 
+ 			a2 = 512 --STR
+ 			v2 = 14 -- 14=5
+		elseif trade:getItemId(3) == 6505 then 
+			a3 = 512 --STR
+			v3 = 14 -- 14=5
+		elseif trade:getItemId(4) == 6505 then 
+ 			a4 = 512 --STR
+			v4 = 14 -- 14=5
+ 		end
+		
 		if trade:getItemId(1) == 4100 then --lightning crystals > DEX
 			a1 = 513 --DEX
 			v1 = 0 -- 0=1
@@ -45,6 +73,34 @@
 		elseif trade:getItemId(4) == 4100 then 
  			a4 = 513 --DEX
 			v4 = 0 -- 0=1
+ 		end
+		
+		if trade:getItemId(1) == 4242 then --Plasma crystals > DEX
+			a1 = 513 --DEX
+			v1 = 4 -- 4=5
+		elseif trade:getItemId(2) == 4242 then 
+ 			a2 = 513 --DEX
+ 			v2 = 4 -- 4=5
+		elseif trade:getItemId(3) == 4242 then 
+			a3 = 513 --DEX
+			v3 = 4 -- 4=5
+		elseif trade:getItemId(4) == 4242 then 
+ 			a4 = 513 --DEX
+			v4 = 4 -- 4=5
+ 		end
+		
+		if trade:getItemId(1) == 6510 then --Bolt crystals > DEX
+			a1 = 513 --DEX
+			v1 = 14 -- 14=5
+		elseif trade:getItemId(2) == 6510 then 
+ 			a2 = 513 --DEX
+ 			v2 = 14 -- 14=5
+		elseif trade:getItemId(3) == 6510 then 
+			a3 = 513 --DEX
+			v3 = 14 -- 14=5
+		elseif trade:getItemId(4) == 6510 then 
+ 			a4 = 513 --DEX
+			v4 = 14 -- 14=5
  		end
 
 		if trade:getItemId(1) == 4099 then --Earth crystals > VIT
@@ -59,6 +115,34 @@
 		elseif trade:getItemId(4) == 4099 then 
  			a4 = 514 --VIT
 			v4 = 0 -- 0=1
+ 		end
+
+		if trade:getItemId(1) == 4241 then --Terra crystals > VIT
+			a1 = 514 --VIT
+			v1 = 4 -- 4=5
+		elseif trade:getItemId(2) == 4241 then 
+ 			a2 = 514 --VIT
+ 			v2 = 4 -- 4=5
+		elseif trade:getItemId(3) == 4241 then 
+			a3 = 514 --VIT
+			v3 = 4 -- 4=5
+		elseif trade:getItemId(4) == 4241 then 
+ 			a4 = 514 --VIT
+			v4 = 4 -- 4=5
+ 		end
+
+		if trade:getItemId(1) == 6509 then --Geo crystals > VIT
+			a1 = 514 --VIT
+			v1 = 14 -- 14=5
+		elseif trade:getItemId(2) == 6509 then 
+ 			a2 = 514 --VIT
+ 			v2 = 14 -- 14=5
+		elseif trade:getItemId(3) == 6509 then 
+			a3 = 514 --VIT
+			v3 = 14 -- 14=5
+		elseif trade:getItemId(4) == 6509 then 
+ 			a4 = 514 --VIT
+			v4 = 14 -- 14=5
  		end
 		
 		if trade:getItemId(1) == 4098 then --Wind Crystals > AGI
@@ -75,6 +159,34 @@
 			v4 = 0 -- 0=1
  		end
 		
+		if trade:getItemId(1) == 4240 then --Cyclone Crystals > AGI
+			a1 = 515 --AGI
+			v1 = 4 -- 4=5
+		elseif trade:getItemId(2) == 4240 then 
+ 			a2 = 515 --AGI
+ 			v2 = 4 -- 4=5
+		elseif trade:getItemId(3) == 4240 then 
+			a3 = 515 --AGI
+			v3 = 4 -- 4=5
+		elseif trade:getItemId(4) == 4240 then 
+ 			a4 = 515 --AGI
+			v4 = 4 -- 4=5
+ 		end
+		
+		if trade:getItemId(1) == 6508 then --Vortex Crystals > AGI
+			a1 = 515 --AGI
+			v1 = 14 -- 14=5
+		elseif trade:getItemId(2) == 6508 then 
+ 			a2 = 515 --AGI
+ 			v2 = 14 -- 14=5
+		elseif trade:getItemId(3) == 6508 then 
+			a3 = 515 --AGI
+			v3 = 14 -- 14=5
+		elseif trade:getItemId(4) == 6508 then 
+ 			a4 = 515 --AGI
+			v4 = 14 -- 14=5
+ 		end
+		
 		if trade:getItemId(1) == 4097 then --Ice Crystals > INT
 			a1 = 516 --INT
 			v1 = 0 -- 0=1
@@ -87,6 +199,34 @@
 		elseif trade:getItemId(4) == 4097 then 
  			a4 = 516 --INT
 			v4 = 0 -- 0=1
+ 		end
+		
+		if trade:getItemId(1) == 4239 then --Glacier Crystals > INT
+			a1 = 516 --INT
+			v1 = 4 -- 4=5
+		elseif trade:getItemId(2) == 4239 then 
+ 			a2 = 516 --INT
+ 			v2 = 4 -- 4=5
+		elseif trade:getItemId(3) == 4239 then 
+			a3 = 516 --INT
+			v3 = 4 -- 4=5
+		elseif trade:getItemId(4) == 4239 then 
+ 			a4 = 516 --INT
+			v4 = 4 -- 4=5
+ 		end
+		
+		if trade:getItemId(1) == 6507 then --Frost Crystals > INT
+			a1 = 516 --INT
+			v1 = 14 -- 14=5
+		elseif trade:getItemId(2) == 4239 then 
+ 			a2 = 516 --INT
+ 			v2 = 14 -- 14=5
+		elseif trade:getItemId(3) == 4239 then 
+			a3 = 516 --INT
+			v3 = 14 -- 14=5
+		elseif trade:getItemId(4) == 4239 then 
+ 			a4 = 516 --INT
+			v4 = 14 -- 14=5
  		end
 		
 		if trade:getItemId(1) == 4101 then --Water Crystals > MND
@@ -102,19 +242,47 @@
  			a4 = 517 --MND
 			v4 = 0 -- 0=1
  		end
+		
+		if trade:getItemId(1) == 4243 then --Torrent Crystals > MND
+			a1 = 517 --MND
+			v1 = 4 -- 4=5
+		elseif trade:getItemId(2) == 4243 then 
+ 			a2 = 517 --MND
+ 			v2 = 4 -- 4=5
+		elseif trade:getItemId(3) == 4243 then 
+			a3 = 517 --MND
+			v3 = 4 -- 4=5
+		elseif trade:getItemId(4) == 4243 then 
+ 			a4 = 517 --MND
+			v4 = 4 -- 4=5
+ 		end
+		
+		if trade:getItemId(1) == 6511 then --Fluid Crystals > MND
+			a1 = 517 --MND
+			v1 = 14 -- 14=5
+		elseif trade:getItemId(2) == 4243 then 
+ 			a2 = 517 --MND
+ 			v2 = 14 -- 14=5
+		elseif trade:getItemId(3) == 4243 then 
+			a3 = 517 --MND
+			v3 = 14 -- 14=5
+		elseif trade:getItemId(4) == 4243 then 
+ 			a4 = 517 --MND
+			v4 = 14 -- 14=5
+ 		end
 
-		if trade:getItemId(1) == 613 then --Faded Crystal > CHR
+		if trade:getItemId(1) == 613 then --Faded Crystal > CHR. Values wil exceed 31 with 11+ crystals. This is a visual effect only due to an overflow in the UI. +100, or value of 99, would display as +4, but would give 100 CHR. You can ignore this, work around it, or place a safeguard for <10 logic. Since it is functional, I will ignore it, but minimize it's prevelance in the publication of this script for simplicity and transparency.
 			a1 = 518 --CHR
-			v1 = slot1 -- +1 CHR for each Faded Crystal in Augment slot 1, or Trade slot 2
+			v1 = slot1*3 -- +3 CHR for each Faded Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 613 then 
  			a2 = 518 --CHR
- 			v2 = slot2 -- +1 CHR for each Faded Crystal in Augment slot 2, or Trade slot 3
+ 			v2 = slot2*3 -- +3 CHR for each Faded Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 613 then 
 			a3 = 518 --CHR
-			v3 = slot3 -- +1 CHR for each Faded Crystal in Augment slot 3, or Trade slot 4
+			v3 = slot3*3 -- +3 CHR for each Faded Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 613 then 
  			a4 = 518 --CHR
-			v4 = slot4 -- +1 CHR for each Faded Crystal in Augment slot 4, or Trade slot 5
+			v4 = slot4*3 -- +3 CHR for each Faded Crystal in Augment slot 4, or Trade slot 5
  		end
 
 		if trade:getItemId(1) == 4102 then --Light Crystal > CHR
@@ -131,18 +299,74 @@
 			v4 = slot4 -- +1 HP for each Light Crystal in Augment slot 4, or Trade slot 5
  		end
 
+		if trade:getItemId(1) == 4244 then --Aurora Crystal > CHR
+			a1 = 2 --HP
+			v1 = 27 -- 27=60
+		elseif trade:getItemId(2) == 4244 then 
+ 			a2 = 2 --HP
+ 			v2 = 27 -- 27=60
+		elseif trade:getItemId(3) == 4244 then 
+			a3 = 2 --HP
+			v3 = 27 -- 27=60
+		elseif trade:getItemId(4) == 4244 then 
+ 			a4 = 2 --HP
+			v4 = 27 -- 27=60
+ 		end
+
+		if trade:getItemId(1) == 6512 then --Glimmer Crystal > CHR
+			a1 = 4 --HP
+			v1 = 23 -- 23=120
+		elseif trade:getItemId(2) == 6512 then 
+ 			a2 = 4 --HP
+ 			v2 = 23 -- 23=120
+		elseif trade:getItemId(3) == 6512 then 
+			a3 = 4 --HP
+			v3 = 23 -- 23=120
+		elseif trade:getItemId(4) == 6512 then 
+ 			a4 = 4 --HP
+			v4 = 23 -- 23=120
+ 		end
+
 		if trade:getItemId(1) == 4103 then --Dark Crystal > CHR
-			a1 = 4 --MP
+			a1 = 9 --MP
 			v1 = slot1 -- +1 HP for each Dark Crystal in Augment slot 1, or Trade slot 2
 		elseif trade:getItemId(2) == 4103 then 
- 			a2 = 4 --MP
+ 			a2 = 9 --MP
  			v2 = slot2 -- +1 HP for each Dark Crystal in Augment slot 2, or Trade slot 3
 		elseif trade:getItemId(3) == 4103 then 
-			a3 = 4 --MP
+			a3 = 9 --MP
 			v3 = slot3 -- +1 HP for each Dark Crystal in Augment slot 3, or Trade slot 4
 		elseif trade:getItemId(4) == 4103 then 
- 			a4 = 4 --MP
+ 			a4 = 9 --MP
 			v4 = slot4 -- +1 HP for each Dark Crystal in Augment slot 4, or Trade slot 5
+ 		end
+
+		if trade:getItemId(1) == 4245 then --Twilight Crystal > CHR
+			a1 = 10 --MP
+			v1 = 27 -- 27=60
+		elseif trade:getItemId(2) == 4245 then 
+ 			a2 = 10 --MP
+ 			v2 = 27 -- 27=60
+		elseif trade:getItemId(3) == 4245 then 
+			a3 = 10 --MP
+			v3 = 27 -- 27=60
+		elseif trade:getItemId(4) == 4245 then 
+ 			a4 = 10 --MP
+			v4 = 27 -- 27=60
+ 		end
+
+		if trade:getItemId(1) == 6513 then --Shadow Crystal > CHR
+			a1 = 12 --MP
+			v1 = 23 -- 23=120
+		elseif trade:getItemId(2) == 6513 then 
+ 			a2 = 12 --MP
+ 			v2 = 23 -- 23=120
+		elseif trade:getItemId(3) == 6513 then 
+			a3 = 12 --MP
+			v3 = 23 -- 23=120
+		elseif trade:getItemId(4) == 6513 then 
+ 			a4 = 12 --MP
+			v4 = 23 -- 23=120
  		end
 		
 		if trade:getItemId(1) == 6147 then --Mikhe's Memo > Hand-to-Hand
@@ -604,6 +828,34 @@
 			v3 = slot3
 		elseif trade:getItemId(4) == 6179 then 
  			a4 = 301 --Handbell
+			v4 = slot4
+ 		end
+
+		if trade:getItemId(1) == 921 then --Ahriman Tears
+			a1 = 23 --Accuracy
+			v1 = slot1
+		elseif trade:getItemId(2) == 921 then 
+ 			a2 = 23 --Accuracy
+ 			v2 = slot2
+		elseif trade:getItemId(3) == 921 then 
+			a3 = 23 --Accuracy
+			v3 = slot3
+		elseif trade:getItemId(4) == 921 then 
+ 			a4 = 23 --Accuracy
+			v4 = slot4
+ 		end
+
+		if trade:getItemId(1) == 916 then --Cactuar Needles
+			a1 = 24 --Attack
+			v1 = slot1
+		elseif trade:getItemId(2) == 916 then 
+ 			a2 = 24 --Attack
+ 			v2 = slot2
+		elseif trade:getItemId(3) == 916 then 
+			a3 = 24 --Attack
+			v3 = slot3
+		elseif trade:getItemId(4) == 916 then 
+ 			a4 = 24 --Attack
 			v4 = slot4
  		end
 		
