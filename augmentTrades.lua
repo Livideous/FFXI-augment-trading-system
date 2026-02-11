@@ -858,6 +858,76 @@
  			a4 = 24 --Attack
 			v4 = slot4
  		end
+
+		if trade:getItemId(1) == 936 then --Rock Salt
+			a1 = 33 --Defense
+			v1 = slot1
+		elseif trade:getItemId(2) == 936 then 
+ 			a2 = 33 --Defense
+ 			v2 = slot2
+		elseif trade:getItemId(3) == 936 then 
+			a3 = 33 --Defense
+			v3 = slot3
+		elseif trade:getItemId(4) == 936 then 
+ 			a4 = 33 --Defense
+			v4 = slot4
+ 		end
+
+		if trade:getItemId(1) == 914 then --Mercury
+			a1 = 37 --M.Evasion
+			v1 = slot1
+		elseif trade:getItemId(2) == 914 then 
+ 			a2 = 37 --M.Evasion
+ 			v2 = slot2
+		elseif trade:getItemId(3) == 914 then 
+			a3 = 37 --M.Evasion
+			v3 = slot3
+		elseif trade:getItemId(4) == 914 then 
+ 			a4 = 37 --M.Evasion
+			v4 = slot4
+ 		end
+
+		if trade:getItemId(1) == 897 then --Scorpion Claw
+			a1 = 45 --DMG+
+			v1 = slot1
+		elseif trade:getItemId(2) == 914 then 
+ 			a2 = 45 --DMG+
+ 			v2 = slot2
+		elseif trade:getItemId(3) == 914 then 
+			a3 = 45 --DMG+
+			v3 = slot3
+		elseif trade:getItemId(4) == 914 then 
+ 			a4 = 45 --DMG+
+			v4 = slot4
+ 		end
+
+		if trade:getItemId(1) == 891 then --Bat Fang
+			a1 = 41 --Crit+
+			v1 = slot1
+		elseif trade:getItemId(2) == 914 then 
+ 			a2 = 41 --Crit+
+ 			v2 = slot2
+		elseif trade:getItemId(3) == 914 then 
+			a3 = 41 --Crit+
+			v3 = slot3
+		elseif trade:getItemId(4) == 914 then 
+ 			a4 = 41 --Crit+
+			v4 = slot4
+ 		end
+
+		if trade:getItemId(1) == 908 then --Adamantoise Shell
+			a1 = 54 --PDT
+			v1 = slot1
+		elseif trade:getItemId(2) == 908 then 
+ 			a2 = 54 --PDT
+ 			v2 = slot2
+		elseif trade:getItemId(3) == 908 then 
+			a3 = 54 --PDT
+			v3 = slot3
+		elseif trade:getItemId(4) == 908 then 
+ 			a4 = 54 --PDT
+			v4 = slot4
+ 		end
 		
    if(player:getFreeSlotsCount() >= 1) then
 		player:tradeComplete();
